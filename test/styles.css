@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    
+}
+body::before {
+    content: '';
+    background-color: #535971;
+    width: 100%;
+    height: 436px;
+    
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+header h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 48px;
+    margin-bottom: 18px;
+  
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+   
+}
+
+form {
+    background-color: #FFFF;
+    min-height: 300px;
+    margin-top: 58px;
+    padding: 64px;
+    border-radius: 8px 8px 0 0;
+
+}
+
+fieldset {
+ border: none;
+
+
+}
+fieldset h2{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    font-weight:400;
+    color: #535971;
+}
+fieldset legend {
+    color: #535971;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    width: 100%;
+    border-bottom: 1px solid  #E6E6F0;
+    margin-bottom: 52px;
+    
+}
+
+.fieldset-wrapper {
+   
+    gap: 52px;
+}
+
+.input-wrapper{
+    border: none;
+    gap:8px
+    
+}
+
+.input-wrapper label,span {
+    font-size: 14px;
+    font-family: 'Poppins';
+    line-height: 24px;
+    margin-left: 9px;
+    
+
+}
+
+.input-wrapper input {
+   
+    border-radius: 8px;
+    border: none;
+    padding:  14px 14px; 
+    height: 56px;
+    width: 622px;
+}
+
+.input-wrapper span {
+    color: #C1BCCC;
+}
+
+.input-wrapper span:hover {
+    color: #7d7a85;
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+    
+}
+
+
+#form-name {
+    width: 300px;
+}
+
+#form-subname {
+    width: 300px;
+}
+
+
+
+.col-3{
+    display: flex;
+   
+}
+
+
+#form-end {
+    width: 140px;
+    margin-left: 8px;
+}
+
+#form-beggin {
+    width: 140px;
+    margin-left: 16px;
+}
+
+#form-date {
+    width: 300px;
+}
+
+footer {
+    background-color: #535971;
+    width: 750px;
+    height: 160px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 366px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+}
+
+.form-button input {
+    width: 608px;
+    height: 56px;
+    background-color: #FF5374;
+    border: none;
+    border-radius: 20px;
+
+    font-family: 'Staatliches';
+    font-size: 20px;
+    color: #ffffff;
+   
+}
+
+
+.form-button input:hover {
+    background-color: #b43e55;
+}

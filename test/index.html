@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade1</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="page">
+    <header>
+        <h1>MENTORIA</h1>
+        <p>Preencha o formulário abaixo para <br>agendar a sua mentoria</p>
+    </header>
+<form class="my-form">
+    
+<fieldset>  
+    <div class="fieldset-wrapper">
+        <legend>INFORMAÇÕES PESSOAIS</legend>
+         <div class="col-2">
+            <div class="input-wrapper">
+             <label for="form-name">Nome</label>
+             <input type="text" id="form-name"  />
+            </div>
+             <div class="input-wrapper">
+             <label for="form-subname">Sobrenome</label>
+             <input type="text" id="form-subname"  />
+            </div>
+         </div>
+        <div class="input-wrapper">
+           <label for="form-email">E-mail <span>(digite um email valido)</span></label>
+           <input type="email" id="form-email"  />
+        </div>
+        <div class="input-wrapper">
+      <label for="form-password">Senha <span>(minimo 6 caracteres)</span></label>
+      <input type="password" id="form-password"  />
+        </div>  
+    </div>     
+      
+</fieldset>
+<fieldset>
+        <legend>Informações do mentor</legend>
+        <div class="input-wrapper">
+            <label for="form-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" id="form-mentor"  />
+         </div>
+
+</fieldset>
+   
+<fieldset>
+    <legend>Seus horários disponíveis</legend>
+    <h2> Primeira mentoria</h2>
+    <div class="col-3"> 
+    <div class="input-wrapper">
+        <label for="form-date">Data </label>
+        <input type="date" id="form-date"  />
+     </div>
+     <div class="input-wrapper">
+        
+        <label for="form-beggin">Das</label>
+        <input type="time" id="form-beggin"  />
+    </div>
+    <div class="input-wrapper">
+        
+        <label for="form-end">Até</label>
+        <input type="time" id="form-end"  />
+     </div>
+    </div>
+
+    <h2> Segunda mentoria</h2>
+    <div class="col-3"> 
+    <div class="input-wrapper">
+        <label for="form-date">Data </label>
+        <input type="date" id="form-date"  />
+     </div>
+     <div class="input-wrapper">
+        
+        <label for="form-beggin">Das</label>
+        <input type="time" id="form-beggin"  />
+    </div>
+    <div class="input-wrapper">
+        
+        <label for="form-end">Até</label>
+        <input type="time" id="form-end"  />
+     </div>
+    </div>
+
+</fieldset>
+       
+  
+    
+</form>
+<footer>
+    <div class="form-button">
+      <input 
+      type="submit"
+       value="Salvar"
+       form="my-form">
+    </div>
+</footer>
+</div>
+</body>
+</html>
